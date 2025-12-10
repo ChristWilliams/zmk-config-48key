@@ -29,6 +29,14 @@
                     <&pro_micro 19 GPIO_ACTIVE_HIGH>,
                     <&pro_micro 20 GPIO_ACTIVE_HIGH>;
     };
+
+
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
+        kscan = <&default_kscan>;
+        transform = <&default_transform>;
+    };
         
     default_transform: keymap_transform0{
         compatible = "zmk,matrix_transform";
