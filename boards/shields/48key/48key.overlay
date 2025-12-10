@@ -30,7 +30,7 @@
                     <&pro_micro 20 GPIO_ACTIVE_HIGH>;
     };
         
-    default_transform: matrix_transform{
+    default_transform: keymap_transform0{
         compatible = "zmk,matrix_transform";
         rows = <4>;
         columns = <12>;
