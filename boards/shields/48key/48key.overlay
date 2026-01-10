@@ -1,15 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-if ZMK_BACKLIGHT
-
-config PWM
-    default y
-
-config LED_PWM
-    default y
-
-endif # ZMK_BACKLIGHT
-
 &pinctrl {
     // Other pinctrl definitions for other hardware
     pwm0_default: pwm0_default {
@@ -74,4 +64,5 @@ endif # ZMK_BACKLIGHT
 
 
 };
+
 
