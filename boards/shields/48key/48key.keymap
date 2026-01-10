@@ -38,8 +38,8 @@
             bindings = <
                 &kp F1      &kp F2      &kp F3      &kp F4  &kp F5  &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12
                 &kp TAB     &kp N1      &kp N2      &kp N3  &kp N4  &kp N5      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp ENTER
-                &kp CAPS    &to 2       &none       &kp GRAVE   &kp ENTER  &kp DOT      &bspc_del       &kp PIPE    &kp MINUS       &kp EQUAL       &none       &kp APOS
-                &kp LCTRL   &kp LALT    &kp LGUI    &none   &kp LALT   &kp LSHIFT  &kp SPACE   &to 0       &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
+                &kp CAPS    &to 2       &none       &kp GRAVE   &kp LALT   &kp DOT      &bspc_del       &kp PIPE    &kp MINUS       &kp EQUAL       &none       &kp APOS
+                &kp LCTRL   &kp LALT    &kp LGUI    &none   &kp ENTER   &kp LSHIFT  &kp SPACE   &to 0       &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
             >;
         };
 
@@ -56,6 +56,7 @@
     };
 
 };
+
 
 
 
